@@ -31,6 +31,11 @@ ALLOWED_HOSTS = [
     "localhost",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://customer-relationship-management-production.up.railway.app"
+]
+
+
 
 # Application definition
 
